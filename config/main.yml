@@ -1,0 +1,5 @@
+#environment: 'sqa'
+#environment: 'dev_v2_5'
+#environment: 'dev_v3_0'
+environment: 'ist_v3_0'
+#logger_conf: '/opt/ptin/tc/conf/logger/logger.yml'

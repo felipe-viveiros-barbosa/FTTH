@@ -1,0 +1,26 @@
+voucher_vts:
+  5445132de4b05cb59fa81968: Bloqueado
+  54451306e4b05cb59fa81961: Pre-Criado
+  54451342e4b05cb59fa81970: Disponivel
+  54451358e4b05cb59fa81979: Em Processamento
+  54451365e4b05cb59fa81981: Utilizado
+  5445136fe4b05cb59fa81989: Cancelado
+  54514635e4b06849b6cd161a: Pre-Created
+  54514635e4b06849b6cd1623: Created
+  54514635e4b06849b6cd162c: Active
+  54514635e4b06849b6cd1635: Used
+
+oi_stock_type: '54452135e4b044807fa908c7'
+oi_pedido_sap_attr: '5445155de4b038b3a61c26af'
+oi_cad_logistica_attr: '54452591e4b044807fa90a89'
+oi_valor_face_attr: '5445154fe4b038b3a61c26a8'
+oi_direito_recarga_attr: '544525e0e4b044807fa90ab2'
+oi_fatura_attr: '54452691e4b044807fa90b06'
+oi_nf_venda_attr: '5445274be4b044807fa90ba9'
+oi_nf_baixa_attr: '544526f3e4b044807fa90b80'
+oi_nf_extravio_attr: '544526cde4b044807fa90b57'
+oi_nf_retorno_attr: '544526ace4b044807fa90b2e'
+VTS_ACTOR: 'ffffffffff00000000000006'
+
+available_stock: 442024604377
+msisdn: 5511999999999

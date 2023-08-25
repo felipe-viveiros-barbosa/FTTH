@@ -1,0 +1,5 @@
+#sync will not be made on localhost
+ip: '127.0.0.1'
+username: '...'
+password: '...'
+abort_on_fail: true

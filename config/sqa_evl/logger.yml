@@ -1,0 +1,33 @@
+logger_config:
+#  pre_config:
+#    global:   #Configure global logging level
+#      level: INFO
+
+  loggers:            #Configure specific logging channels
+    - name: TestC         #Channel name
+      level: INFO         #Channel level
+      outputters:         #List of outputters to log to. Must be defined in the outputters list
+        - "#{console_outputter_name}"   #Shortcut to the default console outputter name
+#        - logfile
+#        - datelogfile
+
+    - name: FortunaOi
+      level: INFO
+      outputters:
+        - "#{console_outputter_name}"
+
+    - name: TestC::Hooks
+      level: INFO
+      additive: false
+      outputters:
+        - "#{console_outputter_name}"
+
+    - name: TestC::Config
+      level: ERROR
+      additive: false
+      outputters:
+        - "#{console_outputter_name}"
+
+  outputters:         #Configure specific outputters
+    - type: "#{console_outputter_type}"   #Shortcut to the default console outputter class
+      name: "#{console_outputter_name}"   #Shortcut to the default console outputter name

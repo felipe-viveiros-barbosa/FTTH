@@ -1,0 +1,28 @@
+oracle_login:
+  username: 'netwinoi'
+  password: 'netwinoi'
+
+
+shild:
+  username: 'ptikpidev'
+  password: 'ptikpidev'
+
+
+sqa: &sqa
+  username: 'SQA'
+  password: 'sqa'
+
+oracle_db:
+  ip: hosts.db.ip
+  port: 1521
+  sid: 'ntwdeva'
+  tnsnames: "(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 172.24.223.4)(PORT = 1521)))(CONNECT_DATA = (SERVICE_NAME = ntwti)))"
+
+global_values:
+  max_attempts: 10
+
+oracle_db_2:
+  ip: hosts.db.ip
+  port: 1521
+  sid: 'bssdb'
+  tnsnames: "(DESCRIPTION = ( ADDRESS_LIST = ( ADDRESS = (PROTOCOL = TCP)(HOST = 10.51.160.50)(PORT = 1521)))( CONNECT_DATA = (SERVICE_NAME = bssdb)))"

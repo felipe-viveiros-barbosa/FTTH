@@ -1,0 +1,29 @@
+produtos:
+  rel:
+    produto_1:
+      id: 461364
+      direitos:
+        direito_1:
+          cod_direito: 10817
+          valor: 1090
+          unidade: 1
+          tipo_bolso: 'Principal'
+        direito_2:
+          cod_direito: 10830
+          valor: 102400
+          unidade: 3
+          tipo_bolso: 'Bonus'
+        direito_3:
+          cod_direito: 886129
+          valor: 2000000
+          unidade: 1
+          tipo_bolso: 'Bonus'
+    produto_2:
+      id: 176425
+      direitos:
+        direito_1:
+          cod_direito: 10817
+          valor: 700
+          unidade: 1
+          tipo_bolso: 'Principal'
+

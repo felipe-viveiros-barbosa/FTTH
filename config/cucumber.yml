@@ -1,0 +1,5 @@
+tmap: &tmap --format TestC::Formatter::TMAP --out public --format pretty --format TestC::Formatter::HTML --out public/index.html --format junit --out public/ -r features/step_definitions -r features/support/ --strict
+testc: &testc --format pretty --format TestC::Formatter::HTML --out public/index.html --format junit --out public/ -r features/step_definitions -r features/support/ --strict
+standard: --format html --out public/index.html --format junit --out features/reports -r features/step_definitions -r features/support/
+flat: --out public --format pretty
+default: *testc
